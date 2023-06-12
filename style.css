@@ -1,0 +1,23 @@
+:root{
+    --darkhaeder : #444;
+    --lighheadr : #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    box-shadow: 1px 1px 5px;
+}
+
+
+@media (prefers-color-schame : dark){
+    body{
+        display: block;
+    }
+}
